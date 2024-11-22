@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor de Música</title>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Reproductor de Música</h1>
+  <div class="player">
+    <h2 id="currentSong">Canción 1</h2>
+    <audio id="audio" src="song1.mp3"></audio>
+    <div class="controls">
+      <button onclick="prevSong()">⏮️ Anterior</button>
+      <button onclick="togglePlay()">⏯️ Reproducir</button>
+      <button onclick="nextSong()">⏭️ Siguiente</button>
+    </div>
+  </div>
+
+    
+</body>
+  <script src="./script.js"></script>
+</html>
